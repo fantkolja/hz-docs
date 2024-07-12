@@ -1,6 +1,7 @@
 = What is Hazelcast Platform? (Index)
+:page-layout: category-landing
 :!page-pagination:
-:description: Hazelcast Platform uniquely combines a distributed compute engine and a fast data store in one runtime. It offers unmatched performance, resilience and scale for real-time and AI-driven applications. 
+:description: Hazelcast Platform uniquely combines a distributed compute engine and a fast data store in one runtime. It offers unmatched performance, resilience and scale for real-time and AI-driven applications.
 
 Hazelcast is a distributed computation and storage platform for consistently
 low-latency querying, aggregation and stateful computation against event
