@@ -1,6 +1,6 @@
 name: hazelcast
 title: Hazelcast Platform
-# Version in the URL
+# Version in the URL (minor.patch version)
 version: '6.0-snapshot'
 # Version in the version selector (we display only the latest major.minor version)
 display_version: '6.0-SNAPSHOT'
@@ -13,8 +13,8 @@ asciidoc:
     os-version: '6.0.0-SNAPSHOT'
     ee-version: '6.0.0-SNAPSHOT'
     jet-version: '4.5.4'
-    # The minor.patch version, which is used as a variable in the docs for things like file versions
-    minor-version: '6.0-SNAPSHOT'
+    # Same as `version` above but as an asciidoc attribute
+    version: '6.0-SNAPSHOT'
     java-client-standalone-version: '5.5.0-BETA'
     # Allows us to use UI macros. See https://docs.asciidoctor.org/asciidoc/latest/macros/ui-macros/
     experimental: true
@@ -28,15 +28,15 @@ asciidoc:
     # https://github.com/hazelcast/hazelcast-go-client/releases
     page-latest-supported-go-client: '1.4.2'
     # https://github.com/hazelcast/hazelcast-cpp-client/releases
-    page-latest-supported-cplusplus-client: '5.3.0'
+    page-latest-supported-cplusplus-client: '5.4.0'
     # https://github.com/hazelcast/hazelcast-csharp-client/releases
     page-latest-supported-csharp-client: '5.5.0'
     # https://github.com/hazelcast/hazelcast-python-client/releases
     page-latest-supported-python-client: '5.5.0'
     # https://github.com/hazelcast/hazelcast-nodejs-client/releases
     page-latest-supported-nodejs-client: '5.3.0'
-    # https://github.com/hazelcast/clc/releases
-    page-latest-supported-clc: '5.4.1'
+    # https://github.com/hazelcast/hazelcast-commandline-client/releases
+    page-latest-supported-clc: '5.5.0'
     open-source-product-name: 'Community Edition'
     enterprise-product-name: 'Enterprise Edition'
     java-client-new: 'Java Client (Standalone)'
